@@ -37,4 +37,4 @@ workers = os.cpu_count()
 ``` python3 train.py ```
 
 ## Inference
-``` python3 demo.py ./data/Road/test/input ./data/Road/test/output ./weights/road_best_ckpt.pth ./result ```
+``` python3 test.py ./data/Road/test/input ./data/Road/test/output ./weights/road_best_ckpt.pth ./result ```
