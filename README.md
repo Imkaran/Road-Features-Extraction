@@ -37,4 +37,5 @@ workers = os.cpu_count()
 ``` python3 train.py ```
 
 ## Inference
-``` python3 test.py ./data/Road/test/input ./data/Road/test/output ./weights/road_best_ckpt.pth ./result ```
+* Download weight file [road_best_ckpt.pth](https://drive.google.com/file/d/1-kELWA8vE0T2PNY2TcM-cSeHq1g9j1oe/view?usp=sharing) and place it in a weights directory. <br>
+* Run ``` python3 test.py ./data/Road/test/input ./data/Road/test/output ./weights/road_best_ckpt.pth ./result ```
